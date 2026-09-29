@@ -1,0 +1,27 @@
+# Build
+dist/
+build/
+target/
+*.class
+
+# Dependencias
+node_modules/
+
+# Segredos e ambiente
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Editores e sistema
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
